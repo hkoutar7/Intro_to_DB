@@ -5,7 +5,7 @@ try:
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Backend@ALX2024"
+        password=""
     )
 
     print("Connection to database successful")
